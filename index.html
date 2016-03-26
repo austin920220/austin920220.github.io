@@ -1,48 +1,67 @@
-<!DOCTYPE html>
 <html>
-    <head>
-      <link href="css/bootstrap.css" rel="stylesheet">
-     <link type="text/css" rel="stylesheet" href="css/style.css"/>
-      <title>hi</title>
-      <link rel="shortcut icon" href="https://orangeapple.co/assets/favicon-ad7f6f749750e6499de770fdc02b5f2453ce870dbfbc0e31c90ba7b7dc454828.png" type="image/x-icon" />
+  <head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://orangeapple.co/assets/favicon-ad7f6f749750e6499de770fdc02b5f2453ce870dbfbc0e31c90ba7b7dc454828.png" type="image/x-icon" />gg
     </head>
     <body>
-      <div class="container"> <!-- container 在最外層 -->
-  <div class="row">     <!-- row 在中間 -->
-    <div class="col-md-4"></div> <!-- 這欄佔4格寬 -->
-    <div class="col-md-6"></div> <!-- 這欄佔6格寬 -->
-    <div class="col-md-2"></div> <!-- 這欄佔2格寬 -->
-  <div>
-</div>
       <h1>my name is austin!!!</h1>
       <h2>my name is austin!!!</h2>
       <p>my name is austin!!!</p>
-      <a href="..." class="btn btn-primary">我的臉書頁面</a>
-      <img src="http://www.5qdd.com/files/tupian/03-03/dd121103031J8-20.jpg" />
+      <img src="http://www.5qdd.com/files/tupian/03-03/dd121103031J8-20.jpg">
+    <a href="..." class="btn btn-primary">我的臉書頁面</a>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    austin<!-- 在這裡加上你的網站名稱或 LOGO 吧！ -->
+   <ul class="nav navbar-nav navbar-right">
+    <li><a href="#">連結</a></li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+    </ul>
+</li>
+</ul>
+  </div>
+</nav>
+    <div class="container"> <!-- container 在最外層 -->
+  <div class="row">     <!-- row 在中間 -->
+    <div class="col-md-4">hi</div> <!-- 這欄佔4格寬 -->
+    <div class="col-md-6">hihi</div> <!-- 這欄佔6格寬 -->
+    <div class="col-md-2">hihihi</div> <!-- 這欄佔2格寬 -->
+  <div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  我的Line ID
+</button>
 
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-         austin<!-- 在這裡加上你的網站名稱或 LOGO 吧！ -->
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">連結</a></li>
-          <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-              </ul>
-          </li>
-        </ul>
-      </nav>
-        <div class="modal-footer">
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        123
+      </div>
+      <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
-       </div>
-       <script type="text/javascript" src="jquery.js bootstrap.js"></script>
-  </body>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
 </html>
+
 
